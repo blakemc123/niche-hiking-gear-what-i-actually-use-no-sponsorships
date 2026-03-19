@@ -1,0 +1,36 @@
+baseURL: https://niche-hiking-gear-what-i-actually-use-no-sponsorships.vercel.app/
+languageCode: en-us
+title: 'Hiking Gear : What I Actually Use (No Sponsorships)'
+theme: ''
+params:
+  description: For most hikers, an affordable <strong>Anker-style 10k</strong> is
+    plenty. If you care about going lighter, the Nitecore Pocket 10000 is the best
+    pick, and the built-in USB-C cable is one less thing t
+  tagline: 'Your Guide to the Best Hiking Gear : What I Actually Use (No Sponsorships)'
+  adsense_pub_id: ''
+  adsense_slot_header: ''
+  adsense_slot_in_article: ''
+  adsense_slot_sidebar: ''
+menus:
+  main:
+  - name: Home
+    url: /
+    weight: 1
+  - name: Articles
+    url: /posts/
+    weight: 2
+  - name: About
+    url: /about/
+    weight: 3
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 2
+    endLevel: 3
+outputs:
+  home:
+  - HTML
+  - RSS
+enableRobotsTXT: true
